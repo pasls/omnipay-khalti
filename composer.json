@@ -1,0 +1,25 @@
+{
+    "name": "pasls/omnipay-khalti",
+    "type": "library",
+    "require": {
+        "omnipay/common": "^3.0",
+        "guzzlehttp/guzzle": "^6.3.3",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pasls\\OmnipayKhalti\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rajesh",
+            "email": "broncha@vantagebit.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": false
+        }
+    }
+}
